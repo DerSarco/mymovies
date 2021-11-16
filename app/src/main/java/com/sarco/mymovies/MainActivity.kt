@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import com.sarco.mymovies.databinding.ActivityMainBinding
+import com.sarco.mymovies.model.MovieDBClient
+import kotlin.concurrent.thread
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,6 +34,13 @@ class MainActivity : AppCompatActivity() {
         { movie ->
             Toast.makeText(this@MainActivity, movie.title, Toast.LENGTH_SHORT)
                 .show()
+        }
+
+        thread {
+            val listPopularMovies =
+                MovieDBClient.service.listPopularMovies(getString(R.string.api_key))
+            val body = listPopularMovies.execute().body()
+            Log.d("MainActivity", "${body?.results?.size}")
         }
     }
 
