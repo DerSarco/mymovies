@@ -9,4 +9,4 @@ interface TheMovieDBService {
     @GET("movie/popular")
     fun listPopularMovies(@Query("api_key") apiKey: String): Call<MovieDBResult>
 
-}1
+}
