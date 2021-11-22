@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">My Movies</string>
+    <string name="original_language">Original Language</string>
+    <string name="original_title">Original Title</string>
+    <string name="release_date">Release Date</string>
+    <string name="popularity">Popularity</string>
+    <string name="vote_average">Vote Average</string>
+
+
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla, nisl ac facilisis feugiat, erat sem rutrum leo, in ultricies neque quam at nunc. Aliquam in gravida augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque facilisis eros in venenatis eleifend. Nunc eleifend posuere elementum. Aliquam fermentum libero vel lacus sagittis, sit amet laoreet quam pharetra. Phasellus tempus malesuada nisi, vel elementum enim laoreet eu. Sed magna libero, aliquam nec aliquam eu, blandit quis nibh. Nam eget risus molestie turpis lobortis semper. Donec eu lectus tincidunt enim varius consequat. Curabitur mollis id lorem ut viverra.
+Vestibulum at facilisis arcu. Vivamus ligula lacus, sollicitudin in malesuada eu, placerat eu mauris. Maecenas maximus scelerisque aliquam. Quisque tincidunt felis et nulla placerat efficitur. Nulla sagittis orci libero, sed rhoncus justo sollicitudin eget. Fusce vestibulum, leo sit amet auctor convallis, ante ipsum maximus nunc, a pulvinar felis libero volutpat mauris. Vivamus non ultrices velit. Nulla nec orci eget nunc vehicula hendrerit eu ullamcorper est. Nam malesuada ultrices scelerisque.</string>
+
 </resources>

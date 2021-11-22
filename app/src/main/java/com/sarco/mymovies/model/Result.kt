@@ -1,6 +1,11 @@
 package com.sarco.mymovies.model
 
-    data class MovieDB(
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+
+@Parcelize
+data class Movie(
     val adult: Boolean,
     val backdrop_path: String,
     val genre_ids: List<Int>,
@@ -15,4 +20,4 @@ package com.sarco.mymovies.model
     val video: Boolean,
     val vote_average: Double,
     val vote_count: Int
-)
+) : Parcelable
